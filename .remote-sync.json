@@ -1,0 +1,17 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.lojavirtual-pweb.esy.es",
+  "port": "21",
+  "target": "/public_html/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**",
+    ".ftpconfig"
+  ],
+  "username": "u572712778",
+  "password": "YdQJ1SMP8U",
+  "watch": []
+}
