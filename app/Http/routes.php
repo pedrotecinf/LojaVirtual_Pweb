@@ -10,7 +10,17 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
-Route::get('/', function () {
-    return view('admin/index');
+/*
+Route::get('/','homeController@index');
+Route::get('/painelAdmin','painelAdmin@index');
+Route::get('/signin', function () {
+    return view('signin/index');
 });
+*/
+
+Route::controller('painelAdmin','painelAdmin');
+Route::controller('signin','signinController');
+
+// não sei pq mas se não deixar essa rota por ultimo o laravel não encontra as
+// demais rotas ::controller
+Route::controller('','homeController');

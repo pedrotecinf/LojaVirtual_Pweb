@@ -1,0 +1,4 @@
+<?php
+$NomeEmpresa="Louças Finas";
+
+?>
